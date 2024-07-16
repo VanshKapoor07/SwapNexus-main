@@ -1,9 +1,9 @@
 module ICRC {
   public type BlockIndex = Nat;
   public type Subaccount = Blob;
-  // Number of nanoseconds since the UNIX epoch in UTC timezone.
+  // Number of nano seconds since the UNIX epoch in UTC timezone.
   public type Timestamp = Nat64;
-  // Number of nanoseconds between two [Timestamp]s.
+  // Number of nano seconds between two [Timestamp]s.
   public type Tokens = Nat;
   public type TxIndex = Nat;
 
